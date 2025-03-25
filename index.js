@@ -31,7 +31,7 @@ client.on('message_create', message => {
 });
 
 
-//========= reply
+//========= replys
 client.on('message', message => {
 	if(message.body === 'warz') {
 		message.reply('Berbeda-beda tetapi tetap satu');
