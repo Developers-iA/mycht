@@ -33,7 +33,11 @@ client.on('message_create', message => {
 
 //========= replys
 client.on('message', message => {
-	if(message.body === 'warz') {
-		message.reply('Berbeda-beda tetapi tetap satu');
+	if(message.body === '!ping') {
+		message.reply('!pong');
+	} else if(message.body === 'me') {
+		message.reply('fahlevy');
+	} else if(message.body === 'test') {
+		message.reply('coc api sync to band ada di channel dev strike');
 	}
 });
